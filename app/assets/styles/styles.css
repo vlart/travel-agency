@@ -1,0 +1,29 @@
+@import "normalize.css";
+
+/*  ==============HERE STARTS CUSTOM STYLING  =================  */
+
+/*  ---- STYLE TABLE ---- */
+/*
+*  1. Global Styles
+*  2. Hero Section
+*  3. Buttons
+*  4.
+*  5.
+*  6.
+*  7.
+*
+*/
+
+/*  1. Global Styles */
+@import "base/_variables";
+@import "base/_global";
+@import "base/_mixins";
+/* 2. Hero Section */
+@import "modules/_large-hero";
+/* 3. Buttons */
+@import "modules/_btn";
+@import "modules/_wrapper";
+@import "modules/_page-section";
+@import "modules/_headline";
+@import "modules/_row";
+@import "modules/_generic-content-container";
