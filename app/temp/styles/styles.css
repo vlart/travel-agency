@@ -1314,7 +1314,7 @@ a {
 
 .primary-nav{
   padding-top: 0
-} 
+}
   .primary-nav--pull-right{
     float: right;
   }
@@ -1378,4 +1378,18 @@ a {
       font-size: 1rem;
       background-color: transparent
   }
+  }
+
+.reveal-item{
+  opacity: 0;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.reveal-item--is-visible{
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
