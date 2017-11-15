@@ -9,28 +9,41 @@
         <link rel="stylesheet" href="temp/styles/styles.css">
     </head>
     <body>
-        <header>
-            <img src="assets/images/icons/clear-view-escapes.svg">
-            <a href="#" class="btn">Get in Touch</a>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#our-beginning">Our Beginnning</a>
-                    </li>
-                    <li>
-                        <a href="#features">Features</a>
-                    </li>
-                    <li>
-                        <a href="#testimonials">Testimonials</a>
-                    </li>
-                </ul>
-            </nav>
+        <header class="site-header">
+          <div class="wrapper">
+            <div class="site-header__logo">
+                <div class=" site-header__logo__graphic icon icon--clear-view-escapes">Clear View Escapes</div>
+            </div>
+
+                <div class="site-header__menu-icon">
+                    <div class="site-header__menu-icon__middle"></div>
+                </div>
+
+                <div class="site-header__menu-content">
+                  <div class="site-header__btn-container">
+                      <a href="#" class="btn">Get in Touch</a>
+                  </div>
+                  <nav class="primary-nav primary-nav--pull-right">
+                      <ul>
+                          <li>
+                              <a href="#our-beginning">Our Beginnning</a>
+                          </li>
+                          <li>
+                              <a href="#features">Features</a>
+                          </li>
+                          <li>
+                              <a href="#testimonials">Testimonials</a>
+                          </li>
+                      </ul>
+                  </nav>
+                </div>
+          </div>
         </header>
         <div class="large-hero">
             <picture>
                 <source srcset="assets/images/hero--large.jpg 1920w, assets/images/hero--large-hi-dpi.jpg 3840w" media="(min-width: 1380px)">
                 <source srcset="assets/images/hero--medium.jpg 1380w, assets/images/hero--medium-hi-dpi.jpg 2760w" media="(min-width: 990px)">
-                <source srcset="assets/images/hero--small.jpg 990px,assets/images/hero--small-hi-dpi.jpg 1980w" media="(min-width: 640px)">
+                <source srcset="assets/images/hero--small.jpg 990w,assets/images/hero--small-hi-dpi.jpg 1980w" media="(min-width: 640px)">
                 <img srcset="assets/images/hero--smaller.jpg 640w, assets/images/hero--smaller-hi-dpi.jpg 1280w" alt="View of ocean and mountains" class="large-hero__image">
             </picture>
             <div class="large-hero__text-content">
@@ -54,7 +67,7 @@
                         <picture>
                             <source sizes="404px" srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg  808w" media="(min-width: 1020px)">
                             <source sizes="320px" srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-portrait-hi-dpi.jpg 764w" media="(min-width: 800px)">
-                            <img srcset="assets/images/our-start-landscape.jpg 800W, assets/images/our-start-landscape-hi-dpi.jpg 1600w" alt="Our founder, Jane Doe">
+                            <img srcset="assets/images/our-start-landscape.jpg 800w, assets/images/our-start-landscape-hi-dpi.jpg 1600w" alt="Our founder, Jane Doe">
                         </picture>
                     </div>
                     <div class="row__medium-8 row__medium-8--smaller">
@@ -140,4 +153,5 @@
           </div>
         </footer>
     </body>
+<script type="text/javascript" src="/temp/scripts/App.js"></script>
 </html>
